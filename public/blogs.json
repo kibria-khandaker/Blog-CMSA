@@ -1,0 +1,138 @@
+[
+  {
+    "_id": 1,
+    "title": "AMD Ryzen 5 5600X Gaming PC",
+    "image": "https://i.ibb.co/4gQB9wH/HTB1u-Den-XPLu-K1-Rjy0-Fhq6xpd-FXag.jpg",
+    "status": true,
+    "categories": "amd",
+    "tags": "tag",
+    "writer": "Kibria",
+    "description": [
+      "Gigabyte B550M DS3H AM4 AMD Micro ATX Motherboard",
+      "PNY GeForce RTX 3070 8GB UPRISING Dual Fan LHR GDDR6 Graphics Card",
+      "AMD RYZEN 5 5600X PROCESSOR",
+      "16GB 3200MHz DDR4 RAM+ 128GB M.2 PCIe SSD"
+    ],
+    "date": "22-11-1999",
+    "vote": 3
+  },
+  {
+    "_id": 2,
+    "title": "Intel 10th Gen Core i3-10100 Gaming PC",
+    "image": "https://i.ibb.co/SrZmWpd/bg-hero1.jpg",
+    "status": true,
+    "categories": "intel",
+    "tags": "intag",
+    "writer": "intel",
+    "description": [
+      "MSI H510M-A PRO Intel 10th Gen and 11th Gen Mirco-ATX Motherboard",
+      "Intel i3-10100 10th Gen Processor",
+      "8GB 2666MHz DDR4 RAM +1TB HDD",
+      "GIGABYTE GT 730 2GB DDR3 PCI EXPRESS Graphics Card"
+    ],
+    "date": "12-10-1999",
+    "vote": 4
+  },
+  {
+    "_id": 3,
+    "title": "AMD Ryzen 5 3600 Gaming PC",
+    "image": "https://i.ibb.co/VjC4vBd/doctor7.jpg",
+    "status": false,
+    "categories": "amd",
+    "tags": "tag",
+    "writer": "Kibria",
+    "description": [
+      "MSI B450 TOMAHAWK MAX AM4 AMD ATX Motherboard (China)",
+      "128GB SSD + 16GB 3200MHz RAM + 1TB HDD",
+      "AMD Ryzen 5 3600 Processor",
+      "ZOTAC GAMING GTX 1660 SUPER 6GB Twin Fan Graphics Card"
+    ],
+    "date": "12-10-1999",
+    "vote": 5
+  },
+  {
+    "_id": 4,
+    "title": "Gaming PC 10th Gen Core i5-10400f",
+    "image": "https://i.ibb.co/BTs3rC9/deshi-nuts.jpg",
+    "status": false,
+    "categories": "intel",
+    "tags": "intag",
+    "writer": "intel",
+    "description": [
+      "MSI B560M-A PRO Intel 11th Gen mATX Motherboard",
+      "Intel 10th Gen i5-10400F Processor",
+      "8GB RAM +1TB HDD + 128GB SSD",
+      "ASUS GeForce GT 1030 2GB GDDR5 Low Profile Graphics Card"
+    ],
+    "date": "12-10-1999",
+    "vote": 3
+  },
+  {
+    "_id": 5,
+    "title": "Intel 10th Gen Core i7-10700 Gaming PC",
+    "image": "https://i.ibb.co/C0hfzp5/extra-Volunteer.jpg",
+    "status": false,
+    "categories": "intel",
+    "tags": "intag",
+    "writer": "intel",
+    "vote": 5,
+    "description": [
+      "ASRock B560M Steel Legend 10th and 11th Gen Micro ATX Motherboard",
+      "Intel 10th Gen Core i7-10700 Processor",
+      "16GB RAM + 1TB HDD + 256GB SSD",
+      "GeForce GTX 1660 Super NB 6GB-V2 Graphics Card"
+    ],
+    "date": "12-10-1999"
+  },
+  {
+    "_id": 6,
+    "title": "Intel Core i5-11400 11th Gen Gaming PC",
+    "image": "https://i.ibb.co/nnNZHK5/pink-apple.jpg",
+    "status": true,
+    "categories": "intel",
+    "tags": "intag",
+    "writer": "intel",
+    "description": [
+      "Intel 11th Gen Core i5-11400 Rocket Lake Processor",
+      "MSI B560M-A PRO Intel 11th Gen mATX Motherboard",
+      "16GB RAM + 1TB HDD + 256GB M.2 PCIe SSD",
+      "ZOTAC GAMING GTX 1660 SUPER 6GB Graphics Card"
+    ],
+    "date": "12-10-1999",
+    "vote": 2
+  },
+  {
+    "_id": 7,
+    "title": "Intel 11th Gen Core i5-11400f Gaming PC",
+    "image": "https://i.ibb.co/0qdnVd9/test-img-fruit.jpg",
+    "status": true,
+    "categories": "intel",
+    "tags": "intag",
+    "writer": "intel",
+    "description": [
+      "Intel 11th Gen Core i5-11400F Rocket Lake Processor",
+      "ASRock B560M Steel Legend 10th and 11th Gen Micro ATX Motherboard",
+      "Team 16GB DDR4 3200MHz RAM + 128GB M.2 PCIe SSD + Seagate 1TB HDD",
+      "Asus Phoenix GeForce GTX 1050Ti 4GB GDDR5 Graphics Card"
+    ],
+    "date": "12-10-1999",
+    "vote": 5
+  },
+  {
+    "_id": 8,
+    "title": "AMD Ryzen 7 5800X3D Gaming PC",
+    "image": "https://i.ibb.co/gthjz0Q/music-Lessons.jpg",
+    "status": true,
+    "categories": "amd",
+    "tags": "tag",
+    "writer": "Kibria",
+    "description": [
+      "AMD Ryzen 7 5800X3D Processor",
+      "ASROCK B550 STEEL LEGEND AMD B550 Chipset Motherboard",
+      "32GB DDR4 RAM + 500GB PCIe 3.0 NVMe SSD",
+      "Colorful GeForce RTX 4090 NB EX-V 24GB GDDR6X Graphics Card"
+    ],
+    "date": "12-10-1999",
+    "vote": 3
+  }
+]

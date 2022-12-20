@@ -1,0 +1,12 @@
+
+1) store
+
+2) All reducer.js files like as filter or product or others all reducer and finally All reducer file connect to main rootReducer.js file the the rootReducer connection with store.js file with .
+
+3) app.js file wrap with <Provider store={store}></Provider > , export store from store file
+
+4) ActionType Names,
+
+5) Code for reducer function using actionType name in reducer.js files (ex: in filterReducer)
+
+6) 

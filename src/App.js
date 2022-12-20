@@ -10,27 +10,31 @@ import AllBlogList from './components/Dashboard/DashboardPages/AllBlogList';
 import AddBlog from './components/Dashboard/DashboardPages/AddBlog';
 import BlogSport from "./components/Pages/Blogs/BlogSport";
 import BlogTour from "./components/Pages/Blogs/BlogTour";
+import { Provider } from "react-redux";
+import store from './redux/store';
 
 function App() {
   return (
     <div className="">
-      <Navbar></Navbar>
-      <Routes>
+      <Provider store={store}>
+        <Navbar></Navbar>
+        <Routes>
 
-        <Route path='/' element={<Home />} ></Route>
-        <Route path='/about' element={<About />} ></Route>
-        <Route path='/blogs' element={<Blogs />} ></Route>
-        <Route path='/BlogSport' element={<BlogSport />} ></Route>
-        <Route path='/BlogTour' element={<BlogTour />} ></Route>
+          <Route path='/' element={<Home />} ></Route>
+          <Route path='/about' element={<About />} ></Route>
+          <Route path='/blogs' element={<Blogs />} ></Route>
+          <Route path='/BlogSport' element={<BlogSport />} ></Route>
+          <Route path='/BlogTour' element={<BlogTour />} ></Route>
 
-        <Route path='/dashboard' element={<Dashboard />} >
-          <Route path='AddBlog' element={<AddBlog />} ></Route>
-          <Route path='AllBlogList' element={<AllBlogList />} ></Route>
-        </Route>
+          <Route path='/dashboard' element={<Dashboard />} >
+            <Route path='AddBlog' element={<AddBlog />} ></Route>
+            <Route path='AllBlogList' element={<AllBlogList />} ></Route>
+          </Route>
 
-        <Route path='*' element={<Notfound />} ></Route>
-      </Routes>
-      <Footer></Footer>
+          <Route path='*' element={<Notfound />} ></Route>
+        </Routes>
+        <Footer></Footer>
+      </Provider>
     </div>
   );
 }

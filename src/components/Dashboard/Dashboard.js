@@ -10,10 +10,10 @@ const Dashboard = () => {
             </h1> */}
             <DashboardSidebar>
                 {/* <h2> This is DashboardSidebar from Dashboard 2 </h2> */}
-                <h2 className='px-5 py-5 text-2xl text-center'>
+                <h2 className='px-5 py-3 text-xl text-center'>
                     Welcome to Dashboard  from Dashboard 3
                 </h2>
-                <div className='px-5 bg-emerald-300'>
+                <div className='px-5'>
                     <Outlet />
                 </div>
             </DashboardSidebar>
