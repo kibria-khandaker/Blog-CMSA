@@ -7,8 +7,8 @@ const BlogCard = ({ blog }) => {
             <div className="card-body">
                 <div>
                     <h2 className="card-title"> {blog.title} </h2>
-                    <p><b>Post Date :</b> {blog.date}</p>
-                    <p> <b>Rating :</b> {blog.rate}</p>
+                    {/* <p><b>Post Date :</b> {blog.date}</p>
+                    <p> <b>Rating :</b> {blog.rate}</p> */}
                 </div>
                 <p>
                     {/* <b>About:</b> {blog.description.length < 50 ? blog.description.length : blog.description.slice(0, 50)} */}

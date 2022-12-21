@@ -41,26 +41,34 @@ export const filterReducer = (state = initialState, action) => {
 
         case LATEST_CONTENT:
             const copyBlogs3 = [...state.blogs]
-            copyBlogs3.sort((a, b) => a.date < b.rate ? 1 : -1)
+            // const copyBlogs3b = parseInt(copyBlogs3.date)
+
+            // const copyBlogs3b = copyBlogs3.map(aa => aa.date);
+            // const copyBlogs3c =  copyBlogs3b.sort()
+            // console.log("bbbbb "+ copyBlogs3c.sort());
+
+            const copyBlogs3a = copyBlogs3.sort((a, b) => a.date < b.rate ? 1 : -1)
+
             return {
                 ...state,
                 // lowRated: [...copyBlogs2],
-                blogs: [...copyBlogs3]
+                blogs: [...copyBlogs3a],
 
             };
         case OLD_CONTENT:
             const copyBlogs4 = [...state.blogs]
-            copyBlogs4.sort((a, b) => a.date < b.rate ? 1 : -1)
+            const copyBlogs4a = copyBlogs4.sort((a, b) => a.date < b.rate ? 1 : -1)
             return {
                 ...state,
                 // lowRated: [...copyBlogs2],
-                blogs: [...copyBlogs4]
-
+                blogs: [...copyBlogs4a]
             };
 
 
         case DELETE_CONTENT:
-            return {};
+            return {
+
+            };
 
         case DEFAULT_CONTENT:
             return {

@@ -29,7 +29,7 @@ const Home = () => {
                     className={`border px-3 py-2 rounded-full `} >
                     Default
                 </button>
-                <button
+                {/* <button
                     onClick={() => dispatch(topRatedContent())}
                     className={`border px-3 py-2 rounded-full  `} >
                     Top Rate
@@ -38,7 +38,7 @@ const Home = () => {
                     onClick={() => dispatch(lowRatedContent())}
                     className={`border px-3 py-2 rounded-full  `} >
                     Low Rate
-                </button>
+                </button> */}
                 <button
                     onClick={() => dispatch(latestContent())}
                     className={`border px-3 py-2 rounded-full  `} >
