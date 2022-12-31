@@ -11,7 +11,7 @@ const Dashboard = () => {
             <DashboardSidebar>
                 {/* <h2> This is DashboardSidebar from Dashboard 2 </h2> */}
                 <h2 className='px-5 py-3 text-xl text-center'>
-                    Welcome to Dashboard  from Dashboard 3
+                    Welcome to Dashboard
                 </h2>
                 <div className='px-5'>
                     <Outlet />

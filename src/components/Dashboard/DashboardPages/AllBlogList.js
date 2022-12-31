@@ -18,8 +18,8 @@ const AllBlogList = () => {
                             <div className='flex gap-4 justify-start items-center '>
                                 <p className=' font-bold'> {index + 1} : </p>
                                 <img className=' w-10 rounded-lg' src={blog.image} alt={blog.title} />
-                                <h3>   {blog.title}  </h3>
-                                <p>{blog._id}</p>
+                                <h3> {blog.title},  </h3>
+                                <small className=' text-slate-400'> The Blog ID: {blog._id}</small>
                             </div>
                             <div className='flex gap-4 justify-end items-center '>
                                 <button className="btn btn-xs btn-info text-white">Edit</button>
