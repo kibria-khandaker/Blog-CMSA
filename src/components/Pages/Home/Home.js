@@ -13,7 +13,7 @@ const Home = () => {
     // console.log( {blogs,topRated,lowRated});
 
     useEffect(() => {
-        fetch("http://localhost:5000/blogs")
+        fetch("https://blog-cmsa-server.vercel.app/blogs")
             .then((res) => res.json())
             .then((data) => {
                 dispatch((setBlog(data.data)))

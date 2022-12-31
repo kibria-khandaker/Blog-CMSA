@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const AllBlogList = () => {
     const [blogs, setBlogs] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:5000/blogs")
+        fetch("https://blog-cmsa-server.vercel.app/blogs")
             .then((res) => res.json())
             .then((data) => setBlogs(data.data))
     }, []);
