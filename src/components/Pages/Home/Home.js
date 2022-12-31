@@ -42,12 +42,12 @@ const Home = () => {
                 <button
                     onClick={() => dispatch(latestContent())}
                     className={`border px-3 py-2 rounded-full  `} >
-                    Latest Post
+                    Sort by last upload
                 </button>
                 <button
                     onClick={() => dispatch(oldestContent())}
                     className={`border px-3 py-2 rounded-full  `} >
-                    Old Post
+                    Sort by the first upload
                 </button>
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 px-5 mx-auto'>
